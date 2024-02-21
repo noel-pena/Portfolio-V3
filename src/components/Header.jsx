@@ -65,11 +65,14 @@ export const Header = () => {
       <Link
         className="nav-item"
         component="button"
-        href="https://cdn.noel-pena.com/Resume.pdf"
         underline="none"
+        to=""
+        smooth={true}
+        duration={500}
+        offset={-50}
         sx={{ fontWeight: 100 }}
       >
-        Resume
+        Photos
       </Link>
     </nav>
   );
