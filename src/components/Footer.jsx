@@ -37,7 +37,7 @@ export const Footer = () => {
           <a href="https://linkedin.com/in/noel-pe%C3%B1a-1138aa167">
             <LinkedInIcon className="footer-icons" />
           </a>
-          <a href="https://cdn.noel-pena.com/Resume.pdf">
+          <a href="https://cdn.noel-pena.com/Noel-Pena.pdf">
             <FileDownloadIcon className="footer-icons" />
           </a>
           <a href="mailto:noel.pena@hotmail.com">
