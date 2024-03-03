@@ -25,10 +25,17 @@ export const Pictures = () => {
   ];
 
   return (
-    <Grid pt={5} px={2} mx={1} ml={2} gap={5} justifyContent="center">
+    <Grid
+      pt={5}
+      px={2}
+      mx={1}
+      ml={2}
+      gap={5}
+      justifyContent="center"
+      id="pictures"
+    >
       <Grid
         item
-        id="pictures"
         sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
       >
         Photos

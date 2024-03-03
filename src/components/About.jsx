@@ -3,10 +3,9 @@ import { Grid } from "@mui/material";
 export const About = () => {
   return (
     <>
-      <Grid pt={17} px={3}>
+      <Grid pt={17} px={3} id="about">
         <Grid
           item
-          id="about"
           sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
         >
           About

@@ -13,10 +13,9 @@ const Card = styled.div`
 
 export const Projects = () => {
   return (
-    <Grid pt={5} px={3} gap={5}>
+    <Grid pt={5} px={3} gap={5} id="projects">
       <Grid
         item
-        id="projects"
         sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
       >
         Projects
@@ -39,6 +38,24 @@ export const Projects = () => {
             </a>
           </div>
         </Card>
+        <Card className="card">
+          <div className="card-content">
+            <p className="card-icon">Commerical Site</p>
+            <a href="https://jbcprofessional.com/">
+              <LinkIcon
+                className="links"
+                sx={{ color: "gray", padding: "15px" }}
+              />
+            </a>
+            <a href="https://github.com/noel-pena/Commercial-Portfolio-Site">
+              <GitHubIcon
+                className="links"
+                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
+              />
+            </a>
+          </div>
+        </Card>
+
         <Card className="card">
           <div className="card-content">
             <p className="card-icon">Blogging App</p>
@@ -94,17 +111,6 @@ export const Projects = () => {
           <div className="card-content">
             <p className="card-icon">Note Taking App</p>
             <a href="https://github.com/noel-pena/Todo-List">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
-              />
-            </a>
-          </div>
-        </Card>
-        <Card className="card">
-          <div className="card-content">
-            <p className="card-icon">More at GitHub</p>
-            <a href="https://github.com/noel-pena">
               <GitHubIcon
                 className="links"
                 sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}

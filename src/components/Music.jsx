@@ -3,11 +3,10 @@ import { SpotifyPlayer } from "./sub-component/SpotifyPlayer";
 
 export const Music = () => {
   return (
-    <Grid pt={5} px={4} gap={4}>
+    <Grid pt={5} px={4} gap={4} id="music">
       <Grid
         item
         pb={1}
-        id="music"
         sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
       >
         Music

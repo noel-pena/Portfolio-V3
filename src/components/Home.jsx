@@ -7,8 +7,8 @@ export const Home = () => {
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
-      <Grid p={5} pt={28}>
-        <Grid item id="home" className="hero1 hero">
+      <Grid p={5} pt={28} id="home">
+        <Grid item className="hero1 hero">
           Hi. My name is Noel Peña.
         </Grid>
         <Grid item className="hero2 hero">
