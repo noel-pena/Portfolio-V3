@@ -30,8 +30,8 @@ export const Projects = () => {
           lineHeight: 1.5,
         }}
       >
-        Please note that some of the sites might take a few to first-time load
-        since they are hosted through Render free version.
+        Please note that some of the sites might take a few to load for the
+        first time since they are hosted through Render free version.
       </Grid>
       <div id="cards" style={{ paddingTop: "15px" }}>
         <Card className="card">
