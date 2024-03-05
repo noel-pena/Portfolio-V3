@@ -20,6 +20,19 @@ export const Projects = () => {
       >
         Projects
       </Grid>
+      <Grid
+        item
+        pt={1}
+        sx={{
+          textAlign: "left",
+          color: "#f9f9f9d2",
+          fontWeight: 200,
+          lineHeight: 1.5,
+        }}
+      >
+        Please note that some of the sites might take a few to first-time load
+        since they are hosted through Render free version.
+      </Grid>
       <div id="cards" style={{ paddingTop: "15px" }}>
         <Card className="card">
           <div className="card-content">
@@ -40,7 +53,7 @@ export const Projects = () => {
         </Card>
         <Card className="card">
           <div className="card-content">
-            <p className="card-icon">Commerical Site</p>
+            <p className="card-icon">Commercial Site</p>
             <a href="https://jbcprofessional.com/">
               <LinkIcon
                 className="links"
@@ -110,7 +123,13 @@ export const Projects = () => {
         <Card className="card">
           <div className="card-content">
             <p className="card-icon">Note Taking App</p>
-            <a href="https://github.com/noel-pena/Todo-List">
+            <a href="https://todo-list-mongodb-fhh5.onrender.com">
+              <LinkIcon
+                className="links"
+                sx={{ color: "gray", padding: "15px" }}
+              />
+            </a>
+            <a href="https://github.com/noel-pena/ToDo-List-MongoDB">
               <GitHubIcon
                 className="links"
                 sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
