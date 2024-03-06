@@ -25,7 +25,7 @@ export const Footer = () => {
             marginTop: "10px",
           }}
         >
-          NPX LLC | Copyright © {year}
+          NPX | Copyright © {year}
         </Grid>
         <Grid item xs={6} style={{ textAlign: "right" }}>
           <a href="https://github.com/noel-pena">
@@ -34,7 +34,7 @@ export const Footer = () => {
           <a href="https://www.instagram.com/i_am_omen/">
             <InstagramIcon className="footer-icons" />
           </a>
-          <a href="https://linkedin.com/in/noel-pe%C3%B1a-1138aa167">
+          <a href="https://linkedin.com/in/noel-pena-1138aa167">
             <LinkedInIcon className="footer-icons" />
           </a>
           <a href="https://cdn.noel-pena.com/Noel-Pena.pdf">
