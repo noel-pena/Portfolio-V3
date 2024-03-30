@@ -1,3 +1,9 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    color: initial;
+  }
+}
+
 body {
   margin: 0;
   padding: 10px;
