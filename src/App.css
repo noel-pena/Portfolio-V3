@@ -1,6 +1,11 @@
+:root {
+  --text-primary: black;
+  --text-secondary: grey;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
-    color: initial;
+    color: var(--text-primary);
   }
 }
 
