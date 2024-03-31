@@ -1,11 +1,12 @@
 :root {
-  --text-primary: black;
-  --text-secondary: grey;
+  --background-light: rgba(0, 0, 0, 0.626);
+  --background-dark: rgba(0, 0, 0, 0.626);
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     color: var(--text-primary);
+    background-color: var(--background-dark);
   }
 }
 
