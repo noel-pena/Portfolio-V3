@@ -68,7 +68,23 @@ export const Projects = () => {
             </a>
           </div>
         </Card>
-
+        <Card className="card">
+          <div className="card-content">
+            <p className="card-icon">ToDo List App</p>
+            <a href="https://todo-list-react-50js.onrender.com/">
+              <LinkIcon
+                className="links"
+                sx={{ color: "gray", padding: "15px" }}
+              />
+            </a>
+            <a href="https://github.com/noel-pena/Todo-List-React">
+              <GitHubIcon
+                className="links"
+                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
+              />
+            </a>
+          </div>
+        </Card>
         <Card className="card">
           <div className="card-content">
             <p className="card-icon">Blogging App</p>
@@ -113,23 +129,6 @@ export const Projects = () => {
               />
             </a>
             <a href="https://github.com/noel-pena/Simon-game-jQuery">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
-              />
-            </a>
-          </div>
-        </Card>
-        <Card className="card">
-          <div className="card-content">
-            <p className="card-icon">Note Taking App</p>
-            <a href="https://todo-list-mongodb-fhh5.onrender.com">
-              <LinkIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
-            </a>
-            <a href="https://github.com/noel-pena/ToDo-List-MongoDB">
               <GitHubIcon
                 className="links"
                 sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
