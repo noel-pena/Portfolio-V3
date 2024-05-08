@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import { WordBox } from "./sub-component/WordBox";
 
 const inputText =
-  "React.js JavaScript Vite HTML CSS Bootstrap Tailwind•CSS Git GitHub Node.js Express.js EJS REST•APIs SQL PostgreSQL MongoDB MySQL oauth Material•UI jQuery CloudFront S3•Bucket Route•53";
+  "React.js JavaScript Vite Python Flask OpenAI HTML CSS Bootstrap Tailwind•CSS Git GitHub Node.js Express.js EJS APIs SQL PostgreSQL MongoDB MySQL oauth Material•UI jQuery Cloud•deployment CloudFront S3•Bucket Route•53 Prompt•Engineering";
 
 const Word = () => {
   return (

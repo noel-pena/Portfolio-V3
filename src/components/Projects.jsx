@@ -36,6 +36,23 @@ export const Projects = () => {
       <div id="cards" style={{ paddingTop: "15px" }}>
         <Card className="card">
           <div className="card-content">
+            <p className="card-icon">InterviewerAI</p>
+            <a href="https://interviewerai.onrender.com/">
+              <LinkIcon
+                className="links"
+                sx={{ color: "gray", padding: "15px" }}
+              />
+            </a>
+            <a href="https://github.com/noel-pena/InterviewerAI">
+              <GitHubIcon
+                className="links"
+                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
+              />
+            </a>
+          </div>
+        </Card>
+        <Card className="card">
+          <div className="card-content">
             <p className="card-icon">Tipping App</p>
             <a href="https://noel-pena.github.io/Tipping-app/">
               <LinkIcon
@@ -112,23 +129,6 @@ export const Projects = () => {
               />
             </a>
             <a href="https://github.com/noel-pena/Random-Programmer-Quote-Generator">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
-              />
-            </a>
-          </div>
-        </Card>
-        <Card className="card">
-          <div className="card-content">
-            <p className="card-icon">Simon Game</p>
-            <a href="https://noel-pena.github.io/Simon-game-jQuery/">
-              <LinkIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
-            </a>
-            <a href="https://github.com/noel-pena/Simon-game-jQuery">
               <GitHubIcon
                 className="links"
                 sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
