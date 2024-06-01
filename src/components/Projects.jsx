@@ -104,14 +104,8 @@ export const Projects = () => {
         </Card>
         <Card className="card">
           <div className="card-content">
-            <p className="card-icon">Blogging App</p>
-            <a href="https://logger-z7gq.onrender.com">
-              <LinkIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
-            </a>
-            <a href="https://github.com/noel-pena/-Logger">
+            <p className="card-icon">Python Snake Game</p>
+            <a href="https://github.com/noel-pena/Snake-Game">
               <GitHubIcon
                 className="links"
                 sx={{ color: "gray", padding: "15px" }}
