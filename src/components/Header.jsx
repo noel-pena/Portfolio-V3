@@ -61,6 +61,19 @@ export const Header = () => {
         className="nav-item"
         component="button"
         underline="none"
+        to="XP"
+        smooth={true}
+        duration={500}
+        offset={-50}
+        spy={true}
+        style={{ fontWeight: 100 }}
+      >
+        XP
+      </Link>
+      <Link
+        className="nav-item"
+        component="button"
+        underline="none"
         to="projects"
         smooth={true}
         duration={500}

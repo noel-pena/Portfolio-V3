@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Grid } from "@mui/material";
 import styled from "styled-components";
 import LinkIcon from "@mui/icons-material/Link";
@@ -30,8 +31,8 @@ export const Projects = () => {
           lineHeight: 1.5,
         }}
       >
-        Please note that some of the sites might take a few to load for the
-        first time since they are hosted through Render free version.
+        "InterviewerAI" and "Todo List" take about 60 seconds to load for the
+        first time as they are hosted through the free version of Render.com.
       </Grid>
       <div id="cards" style={{ paddingTop: "15px" }}>
         <Card className="card">
@@ -87,7 +88,7 @@ export const Projects = () => {
         </Card>
         <Card className="card">
           <div className="card-content">
-            <p className="card-icon">ToDo List App</p>
+            <p className="card-icon">Todo List</p>
             <a href="https://todo-list-react-50js.onrender.com/">
               <LinkIcon
                 className="links"

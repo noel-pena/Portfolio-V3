@@ -734,7 +734,7 @@ body::before {
 }
 
 .card-content {
-  background-color: var(--card-color);
+  background-color: #25212c;
   border-radius: 7px;
   inset: 1px;
   padding: 1em;
@@ -850,4 +850,9 @@ body::before {
   .footer-icons {
     padding: 15px;
   }
+}
+
+.date-text {
+  text-align: left;
+  font-weight: 200 !important;
 }
