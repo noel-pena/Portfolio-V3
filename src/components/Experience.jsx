@@ -10,11 +10,23 @@ export const Experience = () => {
   return (
     <Grid pt={5} px={3} gap={5} id="XP">
       <Grid
-        pb={3}
         item
         sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
       >
         Experience
+      </Grid>
+      <Grid
+        item
+        pb={5}
+        pt={1}
+        sx={{
+          textAlign: "left",
+          color: "#f9f9f9d2",
+          fontWeight: 200,
+          lineHeight: 1.5,
+        }}
+      >
+        Get to know my work background.
       </Grid>
       <VerticalTimeline lineColor="#201c25">
         <VerticalTimelineElement
@@ -96,7 +108,7 @@ export const Experience = () => {
             borderRight: "7px solid  #201c25",
             opacity: "0",
           }}
-          date="2024 - present"
+          date="2023 - present"
           iconStyle={{
             background: "#201c25",
             color: "#fff",

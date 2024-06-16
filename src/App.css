@@ -96,6 +96,40 @@ body::before {
   }
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typewriter-text {
+  display: inline-block;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+  white-space: nowrap; /* Keeps the text on a single line */
+  overflow: hidden; /* Ensures the text is hidden until typed */
+}
+
+/* Typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking caret effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
 .hero1 {
   background: linear-gradient(0deg, #4c5c9e, #8f87ac);
   -webkit-background-clip: text;
@@ -109,12 +143,14 @@ body::before {
   background-clip: text;
   color: transparent;
   font-size: 24px;
+  letter-spacing: 0.2rem;
 }
 
 .quote {
   color: rgba(247, 247, 247, 0.539);
   font-size: 10px;
   font-weight: 300;
+  letter-spacing: 0.1rem;
 }
 
 @media (min-width: 562px) {
@@ -703,12 +739,12 @@ body::before {
 
 #cards {
   display: grid;
-  gap: 0.25rem;
+  gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
   max-width: auto;
   place-self: center;
   position: relative;
-  width: 100%;
+  width: 90%;
   z-index: 2;
   margin-left: auto;
   margin-right: auto;
@@ -737,8 +773,17 @@ body::before {
   background-color: #25212c;
   border-radius: 7px;
   inset: 1px;
-  padding: 1em;
   position: absolute;
+  border: 1px solid #ccc;
+  background-color: #25212c;
+  border-color: #4c5c9e;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  font-weight: 200;
+  font-size: 12px;
+  color: rgba(195, 195, 195);
 }
 
 .links {
@@ -792,9 +837,9 @@ body::before {
 
 .card-icon {
   color: rgba(255, 255, 255, 0.25);
-  font-size: 2em;
+  font-size: 1.5rem;
   color: white;
-  font-weight: 100;
+  font-weight: 200;
   opacity: 0.4;
   place-self: center;
   transition: transform 250ms, opacity 250ms;
@@ -855,4 +900,8 @@ body::before {
 .date-text {
   text-align: left;
   font-weight: 200 !important;
+}
+
+.home-container {
+  padding: 25px;
 }

@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Masonry from "@mui/lab/Masonry";
 
-const heights = [300, 300, 300, 300, 300, 300];
+const heights = [500, 500, 500, 500, 500, 500];
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -50,7 +50,8 @@ export const Pictures = () => {
           lineHeight: 1.5,
         }}
       >
-        Here is a sample collection of my photography. For more, visit my{" "}
+        If you like photograpy, here is a sample collection of my photos. For
+        more, you can visit my
         <a
           href="https://www.instagram.com/i_am_omen/"
           style={{
