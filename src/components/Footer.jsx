@@ -15,33 +15,71 @@ export const Footer = () => {
       <Grid container p={4} spacing={1} justifyContent="center">
         <Grid
           item
-          xs={6}
-          className="copyright"
-          style={{
-            color: "gray",
+          xs={12}
+          sm={6}
+          sx={{
+            color: "white",
             fontWeight: 500,
             fontSize: "10px",
-            textAlign: "left",
+            textAlign: { xs: "center", sm: "left" },
             marginTop: "10px",
+            padding: { xs: "10px 0", sm: "0" }, // Ensure no extra padding is added
           }}
         >
           NPX | Copyright © {year}
         </Grid>
-        <Grid item xs={6} style={{ textAlign: "right" }}>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          sx={{
+            textAlign: { xs: "center", sm: "right" },
+            padding: { xs: "10px 0", sm: "0" }, // Ensure no extra padding is added
+          }}
+        >
           <a href="https://github.com/noel-pena">
-            <GitHubIcon className="footer-icons" />
+            <GitHubIcon
+              sx={{
+                color: "gray",
+                "&:hover": { color: "#4c5c9e" },
+                marginRight: { xs: "5px", sm: "10px" },
+              }}
+            />
           </a>
           <a href="https://www.instagram.com/i_am_omen/">
-            <InstagramIcon className="footer-icons" />
+            <InstagramIcon
+              sx={{
+                color: "gray",
+                "&:hover": { color: "#4c5c9e" },
+                marginRight: { xs: "5px", sm: "10px" },
+              }}
+            />
           </a>
           <a href="https://linkedin.com/in/noel-pena-1138aa167">
-            <LinkedInIcon className="footer-icons" />
+            <LinkedInIcon
+              sx={{
+                color: "gray",
+                "&:hover": { color: "#4c5c9e" },
+                marginRight: { xs: "5px", sm: "10px" },
+              }}
+            />
           </a>
           <a href="https://cdn.noel-pena.com/Noel-Pena.pdf">
-            <FileDownloadIcon className="footer-icons" />
+            <FileDownloadIcon
+              sx={{
+                color: "gray",
+                "&:hover": { color: "#4c5c9e" },
+                marginRight: { xs: "5px", sm: "10px" },
+              }}
+            />
           </a>
           <a href="mailto:noel.pena@hotmail.com">
-            <EmailIcon className="footer-icons" />
+            <EmailIcon
+              sx={{
+                color: "gray",
+                "&:hover": { color: "#4c5c9e" },
+              }}
+            />
           </a>
         </Grid>
       </Grid>

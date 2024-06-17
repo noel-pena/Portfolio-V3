@@ -105,11 +105,10 @@ body::before {
 .typewriter-text {
   display: inline-block;
   animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
-  white-space: nowrap; /* Keeps the text on a single line */
-  overflow: hidden; /* Ensures the text is hidden until typed */
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-/* Typing effect */
 @keyframes typing {
   from {
     width: 0;
@@ -119,7 +118,6 @@ body::before {
   }
 }
 
-/* Blinking caret effect */
 @keyframes blink-caret {
   from,
   to {
@@ -789,6 +787,7 @@ body::before {
 .links {
   display: flex;
   flex-direction: column;
+  width: 7rem !important;
 }
 
 .link {
@@ -882,7 +881,7 @@ body::before {
 }
 
 .footer-icons {
-  color: gray;
+  color: gray !important;
   padding: 2px;
 }
 

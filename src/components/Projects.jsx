@@ -52,102 +52,81 @@ export const Projects = () => {
         <Card className="card">
           <div className="card-content" style={{ padding: "10px" }}>
             <p className="card-icon">InterviewerAI</p>
-            <p className="stack">React.js | Flask | Open AI</p>
+            <p className="stack" style={{ paddingBottom: "15px" }}>
+              React.js | Flask | Open AI
+            </p>
             <a href="https://interviewerai.onrender.com/">
-              <LinkIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
+              <LinkIcon className="links" />
             </a>
             <a href="https://github.com/noel-pena/InterviewerAI">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
-              />
+              <GitHubIcon className="links" />
             </a>
           </div>
         </Card>
         <Card className="card">
           <div className="card-content" style={{ padding: "10px" }}>
             <p className="card-icon">Tipping App</p>
-            <p className="stack">React.js</p>
+            <p className="stack" style={{ paddingBottom: "15px" }}>
+              React.js
+            </p>
             <a href="https://noel-pena.github.io/Tipping-app/">
-              <LinkIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
+              <LinkIcon className="links" />
             </a>
             <a href="https://github.com/noel-pena/Tipping-app">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
+              <GitHubIcon className="links" />
             </a>
           </div>
         </Card>
         <Card className="card">
           <div className="card-content" style={{ padding: "10px" }}>
             <p className="card-icon">Commercial Site</p>
-            <p className="stack">React.js</p>
+            <p className="stack" style={{ paddingBottom: "15px" }}>
+              React.js
+            </p>
             <a href="https://jbcprofessional.com/">
-              <LinkIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
+              <LinkIcon className="links" />
             </a>
             <a href="https://github.com/noel-pena/Commercial-Portfolio-Site">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
-              />
+              <GitHubIcon className="links" />
             </a>
           </div>
         </Card>
         <Card className="card">
           <div className="card-content" style={{ padding: "10px" }}>
             <p className="card-icon">Todo List</p>
-            <p className="stack">React | Express.js | MongoDB</p>
+            <p className="stack" style={{ paddingBottom: "15px" }}>
+              React | Express.js | MongoDB
+            </p>
             <a href="https://todo-list-react-50js.onrender.com/">
-              <LinkIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
+              <LinkIcon className="links" />
             </a>
             <a href="https://github.com/noel-pena/Todo-List-React">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
-              />
+              <GitHubIcon className="links" />
             </a>
           </div>
         </Card>
         <Card className="card">
           <div className="card-content" style={{ padding: "10px" }}>
             <p className="card-icon">Python Snake Game</p>
-            <p className="stack">Python</p>
+            <p className="stack" style={{ paddingBottom: "15px" }}>
+              Python
+            </p>
             <a href="https://github.com/noel-pena/Snake-Game">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
+              <GitHubIcon className="links" />
             </a>
           </div>
         </Card>
         <Card className="card">
           <div className="card-content" style={{ padding: "10px" }}>
             <p className="card-icon">Random Quote</p>
-            <p className="stack">EJS | Express.js | REST API</p>
+            <p className="stack" style={{ paddingBottom: "15px" }}>
+              EJS | Express.js | REST API
+            </p>
             <a href="https://random-programmer-quote-generator.onrender.com/">
-              <LinkIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px" }}
-              />
+              <LinkIcon className="links" />
             </a>
             <a href="https://github.com/noel-pena/Random-Programmer-Quote-Generator">
-              <GitHubIcon
-                className="links"
-                sx={{ color: "gray", padding: "15px", paddingTop: "0px" }}
-              />
+              <GitHubIcon className="links" />
             </a>
           </div>
         </Card>
