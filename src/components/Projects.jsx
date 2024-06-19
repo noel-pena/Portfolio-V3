@@ -95,7 +95,7 @@ export const Projects = () => {
           <div className="card-content" style={{ padding: "10px" }}>
             <p className="card-icon">Todo List</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
-              React | Express.js | MongoDB
+              React.js | Node.js | MongoDB
             </p>
             <a href="https://todo-list-react-50js.onrender.com/">
               <LinkIcon className="links" />
@@ -120,7 +120,7 @@ export const Projects = () => {
           <div className="card-content" style={{ padding: "10px" }}>
             <p className="card-icon">Random Quote</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
-              EJS | Express.js | REST API
+              EJS | Node.js | REST API
             </p>
             <a href="https://random-programmer-quote-generator.onrender.com/">
               <LinkIcon className="links" />

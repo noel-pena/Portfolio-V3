@@ -21,7 +21,8 @@ export const Music = () => {
           lineHeight: 1.5,
         }}
       >
-        I make music too! Here is my discography. I go by the alias, Omën.
+        I make music too! Here are some of my released work. I go by the alias,
+        Omën.
       </Grid>
       <SpotifyPlayer />
     </Grid>
