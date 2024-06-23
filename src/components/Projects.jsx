@@ -118,14 +118,11 @@ export const Projects = () => {
         </Card>
         <Card className="card">
           <div className="card-content" style={{ padding: "10px" }}>
-            <p className="card-icon">Random Quote</p>
+            <p className="card-icon">Code Assistant</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
-              EJS | Node.js | REST API
+              Python | Discord API | Open AI
             </p>
-            <a href="https://random-programmer-quote-generator.onrender.com/">
-              <LinkIcon className="links" />
-            </a>
-            <a href="https://github.com/noel-pena/Random-Programmer-Quote-Generator">
+            <a href="https://github.com/noel-pena/Code-Assisting-Discord-Bot">
               <GitHubIcon className="links" />
             </a>
           </div>

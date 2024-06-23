@@ -787,7 +787,7 @@ body::before {
 .links {
   display: flex;
   flex-direction: column;
-  width: 7rem !important;
+  min-width: 5rem !important;
 }
 
 .link {
@@ -813,7 +813,7 @@ body::before {
 }
 .links:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50px;
+  border-radius: 5px;
   opacity: 1;
   transform: scale(1.1) translateY(-5%);
 }
