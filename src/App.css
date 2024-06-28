@@ -1,6 +1,6 @@
 :root {
   --background-light: rgba(0, 0, 0, 0.626);
-  --background-dark: rgba(0, 0, 0, 0.626);
+  --background-dark: rgba(0, 0, 0, 0.711);
 }
 
 @media (prefers-color-scheme: dark) {
