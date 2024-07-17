@@ -43,9 +43,9 @@ export const Projects = () => {
           here.
         </a>
         <p>
-          <span style={{ fontWeight: 500 }}>Note:</span> "InterviewerAI", "Todo
-          List", and "Random Quote" take about 60 seconds to load for the first
-          time because they are hosted through the free version of Render.com.
+          <span style={{ fontWeight: 500 }}>Note:</span> "InterviewerAI" and
+          "Todo List" take about a minute to load for the first time because
+          they are hosted through the free version of Render.com.
         </p>
       </Grid>
       <div id="cards" style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
