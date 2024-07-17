@@ -56,10 +56,9 @@ export const Experience = () => {
             className="vertical-timeline-element-title"
             style={{ fontWeight: 300 }}
           >
-            App Developer
+            Full-stack Developer
           </h3>
-          <h4 style={{ fontWeight: 200 }}>Add company here</h4>
-          <p style={{ fontWeight: 200 }}>Add content here</p>
+          <h4 style={{ fontWeight: 200 }}>Masonite</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{
@@ -88,10 +87,9 @@ export const Experience = () => {
             className="vertical-timeline-element-title"
             style={{ fontWeight: 300 }}
           >
-            App Developer
+            Technical Support Engineer
           </h3>
-          <h4 style={{ fontWeight: 200 }}>Add company here</h4>
-          <p style={{ fontWeight: 200 }}>Add content here</p>
+          <h4 style={{ fontWeight: 200 }}>ServiceNow</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -124,12 +122,6 @@ export const Experience = () => {
             Freelance Web Developer
           </h3>
           <h4 style={{ fontWeight: 200 }}>NPX</h4>
-          <p style={{ fontWeight: 200 }}>
-            Free lance work developing and implementing products for clients
-            using various technologies such as Node.js, React.js, Material UI,
-            AWS (S3 Bucket, CloudFront, Route43), HTML, CSS, MongoDB,
-            PostgreSQL.
-          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </Grid>
