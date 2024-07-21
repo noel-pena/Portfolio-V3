@@ -7,7 +7,7 @@ export const Home = () => {
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
-      <Grid pt={50} pb={50} id="home">
+      <Grid pt={45} pb={50} id="home">
         <Grid item className="hero1 hero">
           Hi. My name is Noel Peña.
         </Grid>
