@@ -1,6 +1,7 @@
 export const SpotifyPlayer = () => {
   return (
     <iframe
+      title="spotifyPlayer"
       style={{ borderRadius: "12px", position: "relative", zIndex: 1 }}
       src="https://open.spotify.com/embed/artist/7gLXw7lLcnPbNVyv6JvAZQ?utm_source=generator&theme=0"
       width="100%"

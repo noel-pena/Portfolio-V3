@@ -55,10 +55,10 @@ export const Projects = () => {
             <p className="stack" style={{ paddingBottom: "15px" }}>
               React.js | Flask | Open AI
             </p>
-            <a href="https://interviewerai.onrender.com/">
+            <a aria-label="Link to Interviewer AI app" href="https://interviewerai.onrender.com/">
               <LinkIcon className="links" />
             </a>
-            <a href="https://github.com/noel-pena/InterviewerAI">
+            <a aria-label="Link to Interviewer AI GitHub repository" href="https://github.com/noel-pena/InterviewerAI">
               <GitHubIcon className="links" />
             </a>
           </div>
@@ -69,10 +69,10 @@ export const Projects = () => {
             <p className="stack" style={{ paddingBottom: "15px" }}>
               React.js
             </p>
-            <a href="https://noel-pena.github.io/Tipping-app/">
+            <a aria-label="Link to Tipping app" href="https://noel-pena.github.io/Tipping-app/">
               <LinkIcon className="links" />
             </a>
-            <a href="https://github.com/noel-pena/Tipping-app">
+            <a aria-label="Link to Tipping app GitHub repository" href="https://github.com/noel-pena/Tipping-app">
               <GitHubIcon className="links" />
             </a>
           </div>
@@ -83,10 +83,10 @@ export const Projects = () => {
             <p className="stack" style={{ paddingBottom: "15px" }}>
               React.js
             </p>
-            <a href="https://jbcprofessional.com/">
+            <a aria-label="Link to commercial site" href="https://jbcprofessional.com/">
               <LinkIcon className="links" />
             </a>
-            <a href="https://github.com/noel-pena/Commercial-Portfolio-Site">
+            <a aria-label="Link to commercial site GitHub repository" href="https://github.com/noel-pena/Commercial-Portfolio-Site">
               <GitHubIcon className="links" />
             </a>
           </div>
@@ -97,10 +97,10 @@ export const Projects = () => {
             <p className="stack" style={{ paddingBottom: "15px" }}>
               React.js | Node.js | MongoDB
             </p>
-            <a href="https://todo-list-react-50js.onrender.com/">
+            <a aria-label="Link to To Do List app" href="https://todo-list-react-50js.onrender.com/">
               <LinkIcon className="links" />
             </a>
-            <a href="https://github.com/noel-pena/Todo-List-React">
+            <a aria-label="Link to To Do List app GitHub repository" href="https://github.com/noel-pena/Todo-List-React">
               <GitHubIcon className="links" />
             </a>
           </div>
@@ -111,7 +111,7 @@ export const Projects = () => {
             <p className="stack" style={{ paddingBottom: "15px" }}>
               Python
             </p>
-            <a href="https://github.com/noel-pena/Snake-Game">
+            <a aria-label="Link to Snake Game GitHub repository" href="https://github.com/noel-pena/Snake-Game">
               <GitHubIcon className="links" />
             </a>
           </div>
@@ -122,7 +122,7 @@ export const Projects = () => {
             <p className="stack" style={{ paddingBottom: "15px" }}>
               Python | Discord API | Open AI
             </p>
-            <a href="https://github.com/noel-pena/Code-Assisting-Discord-Bot">
+            <a aria-label="Link to Code Assisting Discord Bot GitHub repository" href="https://github.com/noel-pena/Code-Assisting-Discord-Bot">
               <GitHubIcon className="links" />
             </a>
           </div>

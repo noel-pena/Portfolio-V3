@@ -37,7 +37,7 @@ export const Footer = () => {
             padding: { xs: "10px 0", sm: "0" }, // Ensure no extra padding is added
           }}
         >
-          <a href="https://github.com/noel-pena">
+          <a aria-label="Link to GitHub" href="https://github.com/noel-pena">
             <GitHubIcon
               sx={{
                 color: "gray",
@@ -46,7 +46,10 @@ export const Footer = () => {
               }}
             />
           </a>
-          <a href="https://www.instagram.com/i_am_omen/">
+          <a
+            aria-label="Link to Instagram"
+            href="https://www.instagram.com/i_am_omen/"
+          >
             <InstagramIcon
               sx={{
                 color: "gray",
@@ -55,7 +58,10 @@ export const Footer = () => {
               }}
             />
           </a>
-          <a href="https://linkedin.com/in/noel-pena-1138aa167">
+          <a
+            aria-label="Link to LinkedIn"
+            href="https://linkedin.com/in/noel-pena-1138aa167"
+          >
             <LinkedInIcon
               sx={{
                 color: "gray",
@@ -64,7 +70,10 @@ export const Footer = () => {
               }}
             />
           </a>
-          <a href="https://cdn.noel-pena.com/Noel-Pena.pdf">
+          <a
+            aria-label="Link to resume"
+            href="https://cdn.noel-pena.com/Noel-Pena.pdf"
+          >
             <FileDownloadIcon
               sx={{
                 color: "gray",
@@ -73,7 +82,7 @@ export const Footer = () => {
               }}
             />
           </a>
-          <a href="mailto:noel.pena@hotmail.com">
+          <a aria-label="Link to email" href="mailto:noel.pena@hotmail.com">
             <EmailIcon
               sx={{
                 color: "gray",

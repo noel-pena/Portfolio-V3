@@ -1,5 +1,10 @@
 import "./App.css";
-import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
+import {
+  Container,
+  CssBaseline,
+  ThemeProvider,
+  createTheme,
+} from "@mui/material";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
@@ -31,18 +36,20 @@ const theme = createTheme({
 export const App = () => {
   return (
     <>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Header />
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Pictures />
-        <Music />
-        <Footer />
-      </ThemeProvider>
+      <Container>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <Header />
+          <Home />
+          <About />
+          <Skills />
+          <Projects />
+          <Experience />
+          <Pictures />
+          <Music />
+          <Footer />
+        </ThemeProvider>
+      </Container>
     </>
   );
 };
