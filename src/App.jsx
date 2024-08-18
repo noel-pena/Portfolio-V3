@@ -1,10 +1,5 @@
 import "./App.css";
-import {
-  Container,
-  CssBaseline,
-  ThemeProvider,
-  createTheme,
-} from "@mui/material";
+import { Container, CssBaseline, ThemeProvider } from "@mui/material";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
@@ -14,24 +9,7 @@ import { Pictures } from "./components/Pictures";
 import { Music } from "./components/Music";
 import { Footer } from "./components/Footer";
 import { Experience } from "./components/Experience";
-
-const theme = createTheme({
-  palette: {
-    mode: "dark",
-    background: {
-      default: "#333",
-    },
-  },
-  components: {
-    MuiSvgIcon: {
-      styleOverrides: {
-        root: {
-          color: "gray",
-        },
-      },
-    },
-  },
-});
+import { theme } from "./components/sub-component/theme";
 
 export const App = () => {
   return (
