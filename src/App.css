@@ -206,7 +206,7 @@ body::before {
   width: 100%;
 }
 
-#stars,
+/* #stars,
 #stars2 {
   position: fixed;
   top: 0;
@@ -235,7 +235,7 @@ body::before {
   left: 20%;
   width: 1px;
   height: 1px;
-}
+} */
 
 #stars {
   width: 1px;
@@ -768,20 +768,20 @@ body::before {
 }
 
 .card-content {
-  background-color: #25212c;
-  border-radius: 7px;
-  inset: 1px;
-  position: absolute;
-  border: 1px solid #ccc;
-  background-color: #25212c;
-  border-color: #4c5c9e;
-  border-radius: 3px;
-  padding: 5px;
-  margin: 5px;
-  color: white;
-  font-weight: 200;
-  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   color: rgba(195, 195, 195);
+}
+
+.card-icon {
+  font-weight: 500;
+}
+
+.stack {
+  padding-bottom: 15px;
 }
 
 .links {

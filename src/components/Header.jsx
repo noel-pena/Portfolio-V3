@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
 
-export const Header = () => {
+export const Header = ({ resetToHome, navigateToSection }) => {
   const [showBackground, setShowBackground] = useState(false);
 
   useEffect(() => {
@@ -20,17 +20,7 @@ export const Header = () => {
   }, []);
 
   return (
-    <nav
-      className={`nav-items ${showBackground ? "with-background" : ""}`}
-      // style={{
-      //   display: "flex",
-      //   flexDirection: "row",
-      //   justifyContent: "center",
-      //   alignContent: "center",
-      //   padding: "1rem",
-      //   gap: "5px",
-      // }}
-    >
+    <nav className={`nav-items ${showBackground ? "with-background" : ""}`}>
       <Link
         component="button"
         className="nav-item"
@@ -41,6 +31,7 @@ export const Header = () => {
         offset={-50}
         spy={true}
         style={{ fontWeight: 100 }}
+        onClick={resetToHome}
       >
         Home
       </Link>
@@ -54,6 +45,7 @@ export const Header = () => {
         offset={-50}
         spy={true}
         style={{ fontWeight: 100 }}
+        onClick={() => navigateToSection("about")}
       >
         About
       </Link>
@@ -67,6 +59,7 @@ export const Header = () => {
         offset={-50}
         spy={true}
         style={{ fontWeight: 100 }}
+        onClick={() => navigateToSection("projects")}
       >
         Projects
       </Link>
@@ -80,6 +73,7 @@ export const Header = () => {
         offset={-50}
         spy={true}
         style={{ fontWeight: 100 }}
+        onClick={() => navigateToSection("XP")}
       >
         XP
       </Link>
@@ -93,6 +87,7 @@ export const Header = () => {
         offset={-50}
         spy={true}
         style={{ fontWeight: 100 }}
+        onClick={() => navigateToSection("pictures")}
       >
         Misc
       </Link>

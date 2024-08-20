@@ -1,13 +1,21 @@
-/* eslint-disable react/no-unescaped-entities */
-import { Grid } from "@mui/material";
+/* eslint-disable react/prop-types */
+import { Grid, Box, IconButton } from "@mui/material";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
-export const Home = () => {
+export const Home = ({ onLoadMore }) => {
   return (
     <>
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
-      <Grid pt={45} pb={50} id="home">
+      <Grid
+        container
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
+        sx={{ minHeight: "100vh", textAlign: "center" }}
+        id="home"
+      >
         <Grid item className="hero1 hero">
           Hi. My name is Noel Peña.
         </Grid>
@@ -18,6 +26,18 @@ export const Home = () => {
           <p>
             "Hard work beats talent when talent doesn't work hard." - Tim Notke
           </p>
+        </Grid>
+        <Grid item>
+          <Box pt={4}>
+            <IconButton
+              variant="contained"
+              color="primary"
+              onClick={onLoadMore}
+              sx={{ width: 60, height: 60, borderRadius: "50%" }}
+            >
+              <NavigateNextIcon sx={{ fontSize: 40 }} />{" "}
+            </IconButton>
+          </Box>
         </Grid>
       </Grid>
     </>
