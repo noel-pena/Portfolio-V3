@@ -11,6 +11,7 @@ import { Footer } from "./components/Footer";
 import { Experience } from "./components/Experience";
 import { theme } from "./components/sub-component/theme";
 
+// TODO: Create feature to render the rest of the components once user scrolls
 export const App = () => {
   return (
     <>
