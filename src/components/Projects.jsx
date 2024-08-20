@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-import { Grid } from "@mui/material";
+import { Grid, Box, IconButton } from "@mui/material";
 import styled from "styled-components";
 import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -10,6 +9,18 @@ const Card = styled.div`
   cursor: pointer;
   height: 200px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #25212c;
+  border: 1px solid #4c5c9e;
+  border-radius: 3px;
+  color: rgba(195, 195, 195);
+  font-weight: 200;
+  font-size: 12px;
+  text-align: center;
 `;
 
 export const Projects = () => {
@@ -48,83 +59,125 @@ export const Projects = () => {
           they are hosted through the free version of Render.com.
         </p>
       </Grid>
-      <div id="cards" style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
+      <div id="cards">
         <Card className="card">
-          <div className="card-content" style={{ padding: "10px" }}>
+          <div className="card-content">
             <p className="card-icon">InterviewerAI</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
               React.js | Flask | Open AI
             </p>
-            <a aria-label="Link to Interviewer AI app" href="https://interviewerai.onrender.com/">
-              <LinkIcon className="links" />
-            </a>
-            <a aria-label="Link to Interviewer AI GitHub repository" href="https://github.com/noel-pena/InterviewerAI">
-              <GitHubIcon className="links" />
-            </a>
+            <Box display="flex" justifyContent="center" gap={2}>
+              <IconButton
+                aria-label="Link to Interviewer AI app"
+                href="https://interviewerai.onrender.com/"
+              >
+                <LinkIcon />
+              </IconButton>
+              <IconButton
+                aria-label="Link to Interviewer AI GitHub repository"
+                href="https://github.com/noel-pena/InterviewerAI"
+              >
+                <GitHubIcon />
+              </IconButton>
+            </Box>
           </div>
         </Card>
         <Card className="card">
-          <div className="card-content" style={{ padding: "10px" }}>
+          <div className="card-content">
             <p className="card-icon">Tipping App</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
               React.js
             </p>
-            <a aria-label="Link to Tipping app" href="https://noel-pena.github.io/Tipping-app/">
-              <LinkIcon className="links" />
-            </a>
-            <a aria-label="Link to Tipping app GitHub repository" href="https://github.com/noel-pena/Tipping-app">
-              <GitHubIcon className="links" />
-            </a>
+            <Box display="flex" justifyContent="center" gap={2}>
+              <IconButton
+                aria-label="Link to Tipping app"
+                href="https://noel-pena.github.io/Tipping-app/"
+              >
+                <LinkIcon />
+              </IconButton>
+              <IconButton
+                aria-label="Link to Tipping app GitHub repository"
+                href="https://github.com/noel-pena/Tipping-app"
+              >
+                <GitHubIcon />
+              </IconButton>
+            </Box>
           </div>
         </Card>
         <Card className="card">
-          <div className="card-content" style={{ padding: "10px" }}>
+          <div className="card-content">
             <p className="card-icon">Commercial Site</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
               React.js
             </p>
-            <a aria-label="Link to commercial site" href="https://jbcprofessional.com/">
-              <LinkIcon className="links" />
-            </a>
-            <a aria-label="Link to commercial site GitHub repository" href="https://github.com/noel-pena/Commercial-Portfolio-Site">
-              <GitHubIcon className="links" />
-            </a>
+            <Box display="flex" justifyContent="center" gap={2}>
+              <IconButton
+                aria-label="Link to commercial site"
+                href="https://jbcprofessional.com/"
+              >
+                <LinkIcon />
+              </IconButton>
+              <IconButton
+                aria-label="Link to commercial site GitHub repository"
+                href="https://github.com/noel-pena/Commercial-Portfolio-Site"
+              >
+                <GitHubIcon />
+              </IconButton>
+            </Box>
           </div>
         </Card>
         <Card className="card">
-          <div className="card-content" style={{ padding: "10px" }}>
+          <div className="card-content">
             <p className="card-icon">Todo List</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
               React.js | Node.js | MongoDB
             </p>
-            <a aria-label="Link to To Do List app" href="https://todo-list-react-50js.onrender.com/">
-              <LinkIcon className="links" />
-            </a>
-            <a aria-label="Link to To Do List app GitHub repository" href="https://github.com/noel-pena/Todo-List-React">
-              <GitHubIcon className="links" />
-            </a>
+            <Box display="flex" justifyContent="center" gap={2}>
+              <IconButton
+                aria-label="Link to To Do List app"
+                href="https://todo-list-react-50js.onrender.com/"
+              >
+                <LinkIcon />
+              </IconButton>
+              <IconButton
+                aria-label="Link to To Do List app GitHub repository"
+                href="https://github.com/noel-pena/Todo-List-React"
+              >
+                <GitHubIcon />
+              </IconButton>
+            </Box>
           </div>
         </Card>
         <Card className="card">
-          <div className="card-content" style={{ padding: "10px" }}>
+          <div className="card-content">
             <p className="card-icon">Python Snake Game</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
               Python
             </p>
-            <a aria-label="Link to Snake Game GitHub repository" href="https://github.com/noel-pena/Snake-Game">
-              <GitHubIcon className="links" />
-            </a>
+            <Box display="flex" justifyContent="center" gap={2}>
+              <IconButton
+                aria-label="Link to Snake Game GitHub repository"
+                href="https://github.com/noel-pena/Snake-Game"
+              >
+                <GitHubIcon />
+              </IconButton>
+            </Box>
           </div>
         </Card>
         <Card className="card">
-          <div className="card-content" style={{ padding: "10px" }}>
+          <div className="card-content">
             <p className="card-icon">Code Assistant</p>
             <p className="stack" style={{ paddingBottom: "15px" }}>
               Python | Discord API | Open AI
             </p>
-            <a aria-label="Link to Code Assisting Discord Bot GitHub repository" href="https://github.com/noel-pena/Code-Assisting-Discord-Bot">
-              <GitHubIcon className="links" />
-            </a>
+            <Box display="flex" justifyContent="center" gap={2}>
+              <IconButton
+                aria-label="Link to Code Assisting Discord Bot GitHub repository"
+                href="https://github.com/noel-pena/Code-Assisting-Discord-Bot"
+              >
+                <GitHubIcon />
+              </IconButton>
+            </Box>
           </div>
         </Card>
       </div>
