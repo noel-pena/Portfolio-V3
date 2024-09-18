@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Grid, Box, IconButton } from "@mui/material";
-import NavigateNextIcon from "@mui/icons-material/NavigateNext";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export const Home = ({ onLoadMore }) => {
   return (
@@ -16,7 +16,6 @@ export const Home = ({ onLoadMore }) => {
         sx={{ minHeight: "100vh", textAlign: "center" }}
         id="home"
       >
-        {/* Centered Content */}
         <Grid item>
           <Box display="flex" flexDirection="column" alignItems="center">
             <Grid item className="hero1 hero">
@@ -33,8 +32,6 @@ export const Home = ({ onLoadMore }) => {
             </Grid>
           </Box>
         </Grid>
-
-        {/* Button positioned below the content */}
         <Grid item>
           <Box pt={4}>
             <IconButton
@@ -43,7 +40,7 @@ export const Home = ({ onLoadMore }) => {
               onClick={onLoadMore}
               sx={{ width: 60, height: 60, borderRadius: "50%" }}
             >
-              <NavigateNextIcon sx={{ fontSize: 40 }} />
+              <ArrowForwardIcon sx={{ fontSize: 40, color: "white" }} />
             </IconButton>
           </Box>
         </Grid>
