@@ -40,6 +40,7 @@ export const App = () => {
   const [targetSection, setTargetSection] = useState("");
 
   const handleLoadComponents = () => {
+    console.log('test')
     setAnimateHome(true);
     setTimeout(() => {
       setLoadComponents(true);
