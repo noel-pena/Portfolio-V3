@@ -134,6 +134,7 @@ body::before {
   background-clip: text;
   color: transparent;
   font-size: 24px;
+  font-weight: 500;
 }
 .hero2 {
   background: linear-gradient(0deg, #ffffff, #d4d4d4);
@@ -141,6 +142,7 @@ body::before {
   background-clip: text;
   color: transparent;
   font-size: 24px;
+  font-weight: 700;
   letter-spacing: 0.2rem;
 }
 
