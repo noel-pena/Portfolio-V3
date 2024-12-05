@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Grid, Box, IconButton } from "@mui/material";
+import { Grid2 as Grid, Box, IconButton } from "@mui/material";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export const Home = ({ onLoadMore }) => {
@@ -16,18 +16,18 @@ export const Home = ({ onLoadMore }) => {
         sx={{ minHeight: "100vh", textAlign: "center" }}
         id="home"
       >
-        <Grid item>
+        <Grid>
           <Box display="flex" flexDirection="column" alignItems="center">
-            <Grid item className="hero1 hero">
+            <Grid className="hero1 hero">
               Hi. I'm Noel
             </Grid>
-            <Grid item pt={3} className="hero2 hero typewriter-text">
+            <Grid sx={{pt: 3}} className="hero2 hero typewriter-text">
               Full stack web dev.
             </Grid>
           </Box>
         </Grid>
-        <Grid item>
-          <Box pt={3}>
+        <Grid>
+          <Box sx={{pt: 3}}>
             <IconButton
               variant="contained"
               color="primary"
