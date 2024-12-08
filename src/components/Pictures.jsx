@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid2 as Grid } from "@mui/material";
 import Box from "@mui/material/Box";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
@@ -26,22 +26,17 @@ export const Pictures = () => {
 
   return (
     <Grid
-      pt={5}
-      px={2}
-      mx={1}
-      ml={2}
+      sx={{pt: 5, px: 2, mx: 1, ml: 2}}
       gap={5}
       justifyContent="center"
       id="pictures"
     >
       <Grid
-        item
         sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
       >
         Photos
       </Grid>
       <Grid
-        item
         pt={1}
         sx={{
           textAlign: "left",
@@ -50,7 +45,7 @@ export const Pictures = () => {
           lineHeight: 1.5,
         }}
       >
-        If you like photograpy, here is a sample collection of my photos. For
+        If you like photography, here is a sample collection of my photos. For
         more, you can visit my
         <a
           href="https://www.instagram.com/i_am_omen/"
@@ -65,7 +60,7 @@ export const Pictures = () => {
         </a>{" "}
         page.
       </Grid>
-      <Box pt={2} sx={{ width: "auto", minHeight: 500 }}>
+      <Box sx={{ pt: 2, width: "auto", minHeight: 500 }}>
         <Masonry columns={{ xs: 1, sm: 2, md: 3 }}>
           {imageUrls.map((imageUrl, index) => (
             <Item
