@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid2 as Grid } from "@mui/material";
 import { WordBox } from "./sub-component/WordBox";
 
 const inputText =
@@ -14,11 +14,10 @@ const Word = () => {
 export const Skills = () => {
   return (
     <>
-      <Grid pt={5} px={3} gap={5}>
+      <Grid gap={5} sx={{ pt: 5, px: 3}}>
         <Grid
-          pb={1}
           item
-          sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
+          sx={{ pb: 1, textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
         >
           Skills
         </Grid>
