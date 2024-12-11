@@ -4,26 +4,24 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import HomeWorkIcon from "@mui/icons-material/HomeWork";
-import { Grid } from "@mui/material";
+import { Grid2 as Grid } from "@mui/material";
 
 export const Experience = () => {
   return (
-    <Grid pt={5} px={3} gap={5} id="XP">
+    <Grid sx={{ pt: 5, px: 3}} gap={5} id="XP">
       <Grid
-        item
         sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
       >
         Experience
       </Grid>
       <Grid
-        item
-        pb={5}
-        pt={1}
         sx={{
           textAlign: "left",
           color: "#f9f9f9d2",
           fontWeight: 200,
           lineHeight: 1.5,
+          pb: 5,
+          pt: 1
         }}
       >
         Get to know my work background.
