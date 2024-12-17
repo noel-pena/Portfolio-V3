@@ -1,18 +1,16 @@
-import { Grid } from "@mui/material";
+import { Grid2 as Grid } from "@mui/material";
 
 export const About = () => {
   return (
-    <Grid pt={10} px={3} id="about">
+    <Grid sx={{pt: 10, px: 3}} id="about">
       <Grid
-        item
         sx={{ textAlign: "left", color: "#f9f9f9d2", fontSize: "24px" }}
       >
         About
       </Grid>
       <Grid
-        item
-        pt={1}
         sx={{
+            pt: 1,
           textAlign: "left",
           color: "#f9f9f9d2",
           fontWeight: 200,
