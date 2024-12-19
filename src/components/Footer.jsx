@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid2 as Grid } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -12,11 +12,9 @@ export const Footer = () => {
   return (
     <>
       <hr className="line" />
-      <Grid container p={4} spacing={1} justifyContent="center">
+      <Grid container sx={{ p: 4}} spacing={1} justifyContent="center">
         <Grid
-          item
-          xs={12}
-          sm={6}
+          size={{sm: 6, xs: 12}}
           sx={{
             color: "white",
             fontWeight: 500,
@@ -29,9 +27,7 @@ export const Footer = () => {
           NPX | Copyright © {year}
         </Grid>
         <Grid
-          item
-          xs={12}
-          sm={6}
+          size={{xs: 12, sm: 2}}
           sx={{
             textAlign: { xs: "center", sm: "right" },
             padding: { xs: "10px 0", sm: "0" }, // Ensure no extra padding is added
