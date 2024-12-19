@@ -6,9 +6,6 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import EmailIcon from "@mui/icons-material/Email";
 
 export const Footer = () => {
-  const d = new Date();
-  const year = d.getFullYear();
-
   return (
     <>
       <hr className="line" />
@@ -24,7 +21,7 @@ export const Footer = () => {
             padding: { xs: "10px 0", sm: "0" }, // Ensure no extra padding is added
           }}
         >
-          NPX | Copyright © {year}
+          NPX | Copyright © {new Date().getFullYear()}
         </Grid>
         <Grid
           size={{xs: 12, sm: 2}}
